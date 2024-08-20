@@ -1,19 +1,24 @@
-public class Main {
+public class Main{
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        // Criação de Variáveis
+        int idade = 25;
+        double altura = 1.75;
+        String nome = "João";
+        boolean estudante = true;
+
+        // Operações Simples
+        int outraIdade = 30;
+        int somaIdades = idade + outraIdade;
+        double alturaMultiplicada = altura * 2;
+        String saudacao = "Olá, " + nome + "!";
+
+        // Exibição de Resultados
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Altura: " + altura);
+        System.out.println("Estudante: " + estudante);
+        System.out.println("Soma das idades: " + somaIdades);
+        System.out.println("Altura multiplicada por 2: " + alturaMultiplicada);
+        System.out.println(saudacao);
     }
 }
-int idadePessoa1= 31;
-double altura= 1.81;
-string nome= "Calleri";
-boolean estudante= true;
-
-int idadePessoa2= 32;
-int somaIdades= idadePessoa1 + idadePessoa2;
-double alturaDobro= alturaPessoa * 2;
-System.out.println("idade: " + idadePessoa1);
-System.out.println("altura: " + altura);
-System.out.println("nome: " + nome);
-System.out.println("estudante: " + estudante);
-System.out.println("soma das idades: " + somaIdades);
-System.out.println("altura dobrada: " + alturaDobro);
